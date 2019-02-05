@@ -21,6 +21,8 @@ public class Cipher {
         System.out.println(CaeserCipher.encode( str, 12 ));
         System.out.println(CaeserCipher.decode(CaeserCipher.encode( str, 12), 12 ));
         
+        System.out.println(Rot13.rot13(str));
+        System.out.println(Rot13.rot13(Rot13.rot13(str)));
     }
  
 }
