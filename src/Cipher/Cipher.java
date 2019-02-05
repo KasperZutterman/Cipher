@@ -23,6 +23,9 @@ public class Cipher {
         
         System.out.println(Rot13.rot13(str));
         System.out.println(Rot13.rot13(Rot13.rot13(str)));
+        
+        System.out.println(AtbashCipher.encode(str));
+        System.out.println(AtbashCipher.decode(AtbashCipher.encode(str)));
     }
  
 }
