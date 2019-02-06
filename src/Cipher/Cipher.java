@@ -26,6 +26,9 @@ public class Cipher {
         
         System.out.println(AtbashCipher.encode(str));
         System.out.println(AtbashCipher.decode(AtbashCipher.encode(str)));
+        
+        System.out.println(RailFenceCipher.encode("defendtheeastwallofthecastle", 2));
+        System.out.println(RailFenceCipher.decode(RailFenceCipher.encode("defendtheeastwallofthecastle", 2), 2));
     }
  
 }
